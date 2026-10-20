@@ -5,7 +5,7 @@ export const jogos = [
     preco: 0,
     genero: 'Battle Royale',
     descricao: 'Batalha real com até 100 jogadores, construção em tempo real e eventos temáticos constantes.',
-    imagemCapa: 'https://picsum.photos/seed/fortnite/400/250',
+    imagemCapa: 'https://store.epicgames.com/p/fortnite?lang=pt-BR',
     destaque: false,
   },
   {
@@ -14,7 +14,7 @@ export const jogos = [
     preco: 0,
     genero: 'Tiro',
     descricao: 'Shooter tático em equipe 5v5, onde cada agente possui habilidades únicas e a precisão faz a diferença.',
-    imagemCapa: 'https://picsum.photos/seed/valorant/400/250',
+    imagemCapa: 'https://www.riotgames.com/pt-br/not%C3%ADcias/colaboracao-global-valorant-consoles',
     destaque: false,
   },
   {
@@ -23,7 +23,7 @@ export const jogos = [
     preco: 0,
     genero: 'Ação',
     descricao: 'Partidas rápidas de até 3v3 com brawlers coloridos, modos de jogo variados e disputas em tempo real.',
-    imagemCapa: 'https://picsum.photos/seed/brawl/400/250',
+    imagemCapa: 'https://supercell.com/images/b524ca49e8549e5d3f5485452da7f26c/cropped.webp',
     destaque: false,
   },
   {
@@ -32,7 +32,7 @@ export const jogos = [
     preco: 49.9,
     genero: 'Aventura',
     descricao: 'Explore o reino subterrâneo de Hallownest em um metroidvania desafiador, cheio de segredos e chefes épicos.',
-    imagemCapa: 'https://picsum.photos/seed/hollow/400/250',
+    imagemCapa: 'https://www.nintendo.com/pt-br/store/products/hollow-knight-nintendo-switch-2-edition-switch-2/?srsltid=AU7gw4U3y_fKn5ejN_tn8GV7yG1Xh7sPyj0tYydhaxkNpICs9w6ksZEQ',
     destaque: true,
   },
   {
@@ -41,7 +41,7 @@ export const jogos = [
     preco: 299.9,
     genero: 'Esportes',
     descricao: 'O futebol mais realista do mercado, com modos online, carreira de treinador e as maiores ligas do mundo.',
-    imagemCapa: 'https://picsum.photos/seed/fifa/400/250',
+    imagemCapa: 'https://www.goal.com/br/listas/25-jogadores-melhores-ratings-ea-sports-fc-25/blt8404a0094f5a6423',
     destaque: false,
   },
   {
@@ -50,7 +50,7 @@ export const jogos = [
     preco: 249.9,
     genero: 'RPG',
     descricao: 'Viva sua própria aventura no mundo bruxo do século XIX, aprendendo magias, criaturas e poções em Hogwarts.',
-    imagemCapa: 'https://picsum.photos/seed/hogwarts/400/250',
+    imagemCapa: 'https://www.nintendo.com/pt-br/store/products/hogwarts-legacy-switch/?srsltid=AU7gw4UKXv20Mnby4m2OpQPNbDe7rKnrTQCOGw_Yrj0VgisTlFrwxsoT',
     destaque: false,
   },
 ];

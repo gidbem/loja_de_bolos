@@ -3,14 +3,12 @@ import {obterFavoritos, salvarFavorito, obterPerfil, salvarPerfil as salvarPerfi
 import {temas} from '../theme';
 
 const PERFIL_INICIAL = { nomeJogador: 'Jogador', modoEscuro: false };
-
 const AppContext = createContext(null);
 
 export function AppProvider({ children }) {
   const [wishlist, setWishlist] = useState([]);
   const [perfil, setPerfil] = useState(PERFIL_INICIAL);
   const [carregado, setCarregado] = useState(false);
-
   useEffect(() => {
     async function carregar() {
       try {
@@ -28,7 +26,6 @@ export function AppProvider({ children }) {
     }
     carregar();
   }, []);
-
   const toggleFavorito = async (id) => {
     const nova = wishlist.includes(id)
       ? wishlist.filter((item) => item !== id)
@@ -36,14 +33,11 @@ export function AppProvider({ children }) {
     setWishlist(nova);
     await salvarFavorito(nova);
   };
-
   const salvarPerfil = async (novoPerfil) => {
     setPerfil(novoPerfil);
     await salvarPerfilStorage(novoPerfil);
   };
-
   const cores = perfil?.modoEscuro ? temas.escuro : temas.claro;
-
   return (
     <AppContext.Provider
       value={{ wishlist, toggleFavorito, perfil, salvarPerfil, cores, carregado }}
@@ -52,5 +46,4 @@ export function AppProvider({ children }) {
     </AppContext.Provider>
   );
 }
-
 export const useApp = () => useContext(AppContext);
