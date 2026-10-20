@@ -23,7 +23,7 @@ export default function Detalhe({ route }) {
         Gênero: {jogo.genero}
       </Text>
       <Text style={[styles.preco, { color: cores.destaque }]}>
-        {formatarPreco(jogo.preco)}
+        {`R$ ${Number(jogo.preco).toFixed(2)}`}
       </Text>
       <Text style={[styles.descricao, { color: cores.texto }]}>{jogo.descricao}</Text>
 

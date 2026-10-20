@@ -77,7 +77,7 @@ export default function Perfil() {
               {item.titulo}
             </Text>
             <Text style={{color: cores.destaque, fontWeight: '600', marginTop: 4}}>
-              {formatarPreco(item.preco)}
+              {(item.preco)}
             </Text>
           </View>
           <TouchableOpacity onPress={() => toggleFavorito(item.id)} hitSlop={10}>

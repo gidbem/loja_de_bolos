@@ -25,7 +25,7 @@ function LojaStack() {
         contentStyle: {backgroundColor: cores.fundo},
       }}
     >
-      <Stack.Screen name="Vitrine" component={Catalogo} options={{ title: 'GG Store' }} />
+      <Stack.Screen name="Vitrine" component={Catalogo} options={{ title: 'Girina Store' }} />
       <Stack.Screen
         name="Detalhes"
         component={Detalhe}
